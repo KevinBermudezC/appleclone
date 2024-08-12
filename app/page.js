@@ -1,9 +1,14 @@
-import Image from "next/image";
+import Hero from "@/components/Hero";
+import Highlights from "@/components/Highlights";
+import Navbar from "@/components/Navbar";
+
 
 export default function Home() {
   return (
-    <h1>
-      Hello World
-    </h1>
+    <main className="bg-black">
+      <Navbar />
+      <Hero />
+      <Highlights />
+    </main>
   );
 }
